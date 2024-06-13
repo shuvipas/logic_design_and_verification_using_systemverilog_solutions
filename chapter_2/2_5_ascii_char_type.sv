@@ -11,7 +11,7 @@ module char_type (
     is_lc = 1'b0;
     is_num = 1'b0;
     is_printable = 1'b0;
-    if (code > 7'h1f & code < 7'h7f) begin
+    if (code > 7'h20 & code < 7'h7f) begin
       is_printable = 1'b1;
       if (code > 7'h2f & code < 7'h3a) is_num = 1'b1;
       else if (code > 7'h40 & code < 7'h5b) is_cap = 1'b1;
@@ -21,7 +21,7 @@ module char_type (
 endmodule
 
 
-`timescale 1ns / 1ps
+`timescale 1ps / 1ps
 module tb_char_type;
   logic [6:0] code;
   logic is_cap, is_lc, is_num, is_printable;
@@ -33,8 +33,9 @@ module tb_char_type;
     for (code = 7'b0; code <= 7'h7f; code++) begin
       #1;
       $display("code = %b     %c %b %b %b %b", code, code, is_cap, is_lc, is_num, is_printable);
+      if(code == 7'h7f)$finish;
     end
-    $finish;
+    
   end
 
 endmodule
