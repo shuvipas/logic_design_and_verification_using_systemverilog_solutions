@@ -31,6 +31,7 @@ module tb_char_type;
   initial begin
     $display("code      char is_cap is_lc is_num is_printable");
     for (code = 7'b0; code <= 7'h7f; code++) begin
+      #1;
       $display("code = %b     %c %b %b %b %b", code, code, is_cap, is_lc, is_num, is_printable);
     end
     $finish;
