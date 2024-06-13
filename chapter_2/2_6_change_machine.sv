@@ -27,32 +27,33 @@ module change_machine (
 );
 
   logic [3:0] change;
-  logic [2:0] coin;
+  // logic [2:0] coin;
   logic [1:0] quarters_temp, dimes_temp, nickels_temp;
-  
+
   assign cough_up_more = (cost > paid) ? 1'b1 : 1'b0;
   assign exact_amount = (cost == paid) ? 1'b1 : 1'b0;
 
   assign change = cost - paid;
-  
+
   always_comb begin
 
     remaining = 3'b0;
     if (~exact_amount & ~cough_up_more) begin
-      /*
+ /*    
       next_coin first (
           .change(change),
           .quarters(quarters),
           .dimes(dimes),
           .nickels(nickels),
           .coin(first_coin)
-      ); */
+      ); 
+      */
 
-          coin = 3'b0;
-    if (change > 3'b101 & quarters > 2'b1) coin = 3'b101;
-    else if (change > 3'b10 & dimes > 2'b1) coin = 3'b10;
-    else if (change > 1'b1 & nickels > 2'b1) coin = 3'b1;
-    first_coin =coin;
+ 
+      if (change > 3'b101 & quarters > 2'b1) first_coin = 3'b101;
+      else if (change > 3'b10 & dimes > 2'b1) first_coin = 3'b10;
+      else if (change > 1'b1 & nickels > 2'b1) first_coin = 3'b1;
+      else first_coin = 3'b0;
 
 
 
@@ -72,15 +73,12 @@ module change_machine (
       );
       */
 
-            coin = 3'b0;
-    if (change > 3'b101 & quarters_temp > 2'b1) coin = 3'b101;
-    else if (change > 3'b10 & dimes_temp > 2'b1) coin = 3'b10;
-    else if (change > 1'b1 & nickels_temp > 2'b1) coin = 3'b1;
-    second_coin =coin;
-
+      if (change > 3'b101 & quarters_temp > 2'b1) second_coin = 3'b101;
+      else if (change > 3'b10 & dimes_temp > 2'b1) second_coin = 3'b10;
+      else if (change > 1'b1 & nickels_temp > 2'b1) second_coin = 3'b1;
+      else second_coin = 3'b0;
       remaining = paid - cost - first_coin - second_coin;
     end
-
 
   end
 

@@ -11,24 +11,24 @@ cModel Technology
 d/home/pasko/projects/systemverilog_practice_problems
 vchange_machine
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1718281810
+Z1 !s110 1718285278
 !i10b 1
-!s100 InVSNjmL5dELWn:Y5mHCQ0
+!s100 ]d1`i26:A2^n5AG]Vmb`^3
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IcdIWYP0hlBOBXZO;lJ<Q70
+I8h>i]ina>W9iSM?nJM_`82
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 d/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions
-Z5 w1718281802
+Z5 w1718285272
 Z6 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
 Z7 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
-!i122 19
-L0 16 73
+!i122 25
+L0 16 72
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1718281810.000000
+Z9 !s108 1718285278.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
 Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z11 o-work work -sv
 Z12 tCvgOpt 0
 vchar_type
 R0
-Z13 !s110 1718261739
+Z13 !s110 1718285224
 !i10b 1
 !s100 J7aJWG=hN9MYbCX_M668n0
 R2
@@ -47,13 +47,13 @@ R4
 Z14 w1718261728
 Z15 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
 Z16 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
-!i122 5
+!i122 22
 L0 1 21
 R8
 r1
 !s85 0
 31
-Z17 !s108 1718261739.000000
+Z17 !s108 1718285224.000000
 Z18 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
 Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
 !i113 1
@@ -72,7 +72,7 @@ R4
 R5
 R6
 R7
-!i122 19
+!i122 25
 L0 1 14
 R8
 r1
@@ -97,7 +97,7 @@ R4
 R14
 R15
 R16
-!i122 5
+!i122 22
 L0 25 17
 R8
 r1
