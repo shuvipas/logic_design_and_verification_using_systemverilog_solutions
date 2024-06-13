@@ -1,1 +1,9 @@
+/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module char_type
+-- Compiling module tb_char_type
 
+Top level modules:
+	tb_char_type
+
+} {} {}}

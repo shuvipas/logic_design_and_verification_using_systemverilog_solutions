@@ -9,34 +9,84 @@ z2
 !i10f 100
 cModel Technology
 d/home/pasko/projects/systemverilog_practice_problems
-vchar_type
+vchange_machine
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1718261739
+Z1 !s110 1718281810
 !i10b 1
-!s100 J7aJWG=hN9MYbCX_M668n0
+!s100 InVSNjmL5dELWn:Y5mHCQ0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I_1Bn`:8cbjDCG?99Q9AYh2
+IcdIWYP0hlBOBXZO;lJ<Q70
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 d/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions
-Z5 w1718261728
-Z6 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
-Z7 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
-!i122 5
-L0 1 21
+Z5 w1718281802
+Z6 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
+Z7 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
+!i122 19
+L0 16 73
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1718261739.000000
-!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
-Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
+Z9 !s108 1718281810.000000
+!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
 !i113 1
 Z11 o-work work -sv
 Z12 tCvgOpt 0
-vtb_char_type
+vchar_type
+R0
+Z13 !s110 1718261739
+!i10b 1
+!s100 J7aJWG=hN9MYbCX_M668n0
+R2
+I_1Bn`:8cbjDCG?99Q9AYh2
+R3
+S1
+R4
+Z14 w1718261728
+Z15 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
+Z16 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
+!i122 5
+L0 1 21
+R8
+r1
+!s85 0
+31
+Z17 !s108 1718261739.000000
+Z18 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
+!i113 1
+R11
+R12
+vnext_coin
 R0
 R1
+!i10b 1
+!s100 `B0HJ:@8AAB6Kb<JEFL8n3
+R2
+II0Q:Qco9zQ^3J3TT1SW7n0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 19
+L0 1 14
+R8
+r1
+!s85 0
+31
+R9
+Z20 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
+R10
+!i113 1
+R11
+R12
+vtb_char_type
+R0
+R13
 !i10b 1
 !s100 hXFAc0T0N_[[B53NBXHUo0
 R2
@@ -44,18 +94,18 @@ I0>zPJVdCEmOJ7>i?k=;PB1
 R3
 S1
 R4
-R5
-R6
-R7
+R14
+R15
+R16
 !i122 5
 L0 25 17
 R8
 r1
 !s85 0
 31
-R9
-Z13 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv|
-R10
+R17
+R18
+R19
 !i113 1
 R11
 R12
