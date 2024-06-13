@@ -11,24 +11,24 @@ cModel Technology
 d/home/pasko/projects/systemverilog_practice_problems
 vchange_machine
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1718285278
+Z1 !s110 1718286454
 !i10b 1
-!s100 ]d1`i26:A2^n5AG]Vmb`^3
+!s100 O[=f88V_afUBAj4ZBB5[Z0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I8h>i]ina>W9iSM?nJM_`82
+Io]B9Bjf3NTo8Ah>H5V86F0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 Z4 d/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions
-Z5 w1718285272
+Z5 w1718286448
 Z6 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
 Z7 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
-!i122 25
-L0 16 72
+!i122 29
+L0 16 69
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1718285278.000000
+Z9 !s108 1718286454.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
 Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
 !i113 1
@@ -72,7 +72,7 @@ R4
 R5
 R6
 R7
-!i122 25
+!i122 29
 L0 1 14
 R8
 r1
@@ -80,6 +80,31 @@ r1
 31
 R9
 Z20 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv|
+R10
+!i113 1
+R11
+R12
+vtb_change_machine
+R0
+R1
+!i10b 1
+!s100 U9m3@<I^`KC88TXF:[6E_2
+R2
+IG4;4_PXd1K2oG?blFzNVb2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 29
+L0 89 62
+R8
+r1
+!s85 0
+31
+R9
+R20
 R10
 !i113 1
 R11
