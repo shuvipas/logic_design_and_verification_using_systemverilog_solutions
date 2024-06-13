@@ -1,1 +1,1 @@
-# logic_design_and_verification_using_systemverilog_solutions
+This repository contains solutions to exercises from the book "Logic Design and Verification Using SystemVerilog" by Donald Thomas. The solutions are organized by chapter and exercise, providing practical examples and detailed explanations to help understand key concepts in SystemVerilog.
