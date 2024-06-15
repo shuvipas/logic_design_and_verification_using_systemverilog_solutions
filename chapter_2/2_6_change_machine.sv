@@ -15,16 +15,16 @@ module change_machine (
   logic [3:0] change, between;
 
   assign cough_up_more = (cost > paid) ? 1'b1 : 1'b0;
-  assign exact_amount = (cost == paid) ? 1'b1 : 1'b0;
+  assign exact_amount  = (cost == paid) ? 1'b1 : 1'b0;
 
- 
+
   always_comb begin
-    first_coin = 3'b0;
+    first_coin  = 3'b0;
     second_coin = 3'b0;
-    remaining = 3'b0;
+    remaining   = 3'b0;
     if (~exact_amount & ~cough_up_more) begin
- 
-     change = paid -cost;
+
+      change = paid - cost;
       if (change >= 3'b101 & quarters >= 2'b1) first_coin = 3'b101;
       else if (change >= 3'b10 & dimes >= 2'b1) first_coin = 3'b10;
       else if (change >= 1'b1 & nickels >= 2'b1) first_coin = 3'b1;
@@ -60,7 +60,7 @@ module tb_change_machine;
     dimes = 2'd1;  // 1 dime available
     nickels = 2'd3;  // 3 nickels available
     #10ns;
-    
+
     assert (exact_amount == 1'b1)
     else $display("Test Case 1 failed: exact_amount");
     assert (cough_up_more == 1'b0)
@@ -71,7 +71,7 @@ module tb_change_machine;
     else $display("Test Case 1 failed: second_coin");  // Expect another nickel
     assert (remaining == 4'b0)
     else $display("Test Case 1 failed: remaining");
-    
+
     //$display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
     //$display("exact_amount =%b ,cough_up_more =%b ,first_coin =%b ,second_coin =%b ,remaining =%b",exact_amount ,cough_up_more ,first_coin ,second_coin ,remaining);
 
@@ -83,7 +83,7 @@ module tb_change_machine;
     dimes = 2'b1;  // 1 dime available
     nickels = 2'b11;  // 3 nickels available
     #10ns;
-    
+
     assert (exact_amount == 1'b0)
     else $display("Test Case 2 failed: exact_amount");
     assert (cough_up_more == 1'b0)
@@ -94,7 +94,7 @@ module tb_change_machine;
     else $display("Test Case 2 failed: second_coin");  // Expect another nickel
     assert (remaining == 4'b0)
     else $display("Test Case 2 failed: remaining");
-    
+
     //$display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
     //$display("exact_amount =%b ,cough_up_more =%b ,first_coin =%b ,second_coin =%b ,remaining =%b",exact_amount ,cough_up_more ,first_coin ,second_coin ,remaining);
 
@@ -103,38 +103,38 @@ module tb_change_machine;
     cost = 4'b1010;  // cost is 10 (50 cents)
     paid = 4'b101;  // paid is 5 (25 cents)
     quarters = 2'b10;
-    dimes = 2'b1;  
-    nickels = 2'b11;  
+    dimes = 2'b1;
+    nickels = 2'b11;
     #10ns;
     assert (exact_amount == 1'b0)
     else $display("Test Case 3 failed: exact_amount");
     assert (cough_up_more == 1'b1)
     else $display("Test Case 3 failed: cough_up_more");
 
-//    $display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
-  //  $display("exact_amount =%b ,cough_up_more =%b ,first_coin =%b ,second_coin =%b ,remaining =%b",exact_amount ,cough_up_more ,first_coin ,second_coin ,remaining);
+    //    $display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
+    //  $display("exact_amount =%b ,cough_up_more =%b ,first_coin =%b ,second_coin =%b ,remaining =%b",exact_amount ,cough_up_more ,first_coin ,second_coin ,remaining);
 
 
     // Test Case 4: Different coin distribution
-    cost = 4'b101; 
-    paid = 4'b1010;  
-    quarters = 2'b0; 
-    dimes = 2'b1;  
+    cost = 4'b101;
+    paid = 4'b1010;
+    quarters = 2'b0;
+    dimes = 2'b1;
     nickels = 2'b10;
     #10ns;
-    
+
     assert (exact_amount == 1'b0)
     else $display("Test Case 4 failed: exact_amount");
     assert (cough_up_more == 1'b0)
     else $display("Test Case 4 failed: cough_up_more");
     assert (first_coin == 3'b10)
-    else $display("Test Case 4 failed: first_coin"); 
+    else $display("Test Case 4 failed: first_coin");
     assert (second_coin == 3'b1)
-    else $display("Test Case 4 failed: second_coin");  
+    else $display("Test Case 4 failed: second_coin");
     assert (remaining == 4'b10)
     else $display("Test Case 4 failed: remaining");
-    
-   // $display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
+
+    // $display("cost =%b ,paid =%b , quarters =%b ,dimes =%b ,nickels=%b ",cost ,paid , quarters ,dimes ,nickels);
     //$display("exact_amount =%b ,cough_up_more =%b ,first_coin =%b ,second_coin =%b ,remaining =%b",exact_amount ,cough_up_more ,first_coin ,second_coin ,remaining);
 
 

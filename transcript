@@ -126,3 +126,17 @@ run
 #    Time: 40 ns  Iteration: 0  Instance: /tb_change_machine
 # 1
 # Break in Module tb_change_machine at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv line 185
+# Compile of 2_6_change_machine.sv was successful.
+vsim work.tb_change_machine
+# End time: 21:51:51 on Jun 15,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 2
+# vsim work.tb_change_machine 
+# Start time: 21:51:51 on Jun 15,2024
+# Loading sv_std.std
+# Loading work.tb_change_machine
+# Loading work.change_machine
+run
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv(142)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_change_machine
+# 1
+# Break in Module tb_change_machine at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv line 142
