@@ -140,3 +140,149 @@ run
 #    Time: 40 ns  Iteration: 0  Instance: /tb_change_machine
 # 1
 # Break in Module tb_change_machine at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv line 142
+# Compile of 3_1_reg_with_benefits.sv was successful.
+# Compile of 3_1_reg_with_benefits.sv failed with 1 errors.
+# Compile of 3_1_reg_with_benefits.sv was successful.
+vsim work.tb_reg_with_benefits
+# End time: 09:55:33 on Jun 16,2024, Elapsed time: 12:03:42
+# Errors: 0, Warnings: 5
+# vsim work.tb_reg_with_benefits 
+# Start time: 09:55:33 on Jun 16,2024
+# Loading sv_std.std
+# Loading work.tb_reg_with_benefits
+# Loading work.reg_with_benefits
+# ** Error: (vsim-8378) Port size (8) does not match connection size (4) for implicit .name connection port 'd'. The port definition is at: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_reg_with_benefits/dut File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv Line: 26
+# ** Error: (vsim-8378) Port size (8) does not match connection size (4) for implicit .name connection port 'q'. The port definition is at: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_reg_with_benefits/dut File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv Line: 26
+# Error loading design
+# End time: 09:55:33 on Jun 16,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of 3_1_reg_with_benefits.sv failed with 1 errors.
+# Compile of 3_1_reg_with_benefits.sv was successful.
+vsim work.tb_reg_with_benefits
+# vsim work.tb_reg_with_benefits 
+# Start time: 09:57:40 on Jun 16,2024
+# Loading sv_std.std
+# Loading work.tb_reg_with_benefits
+# Loading work.reg_with_benefits
+run
+#                    0 d = 1010, q= 0000,  rstn= 0,clr= x,ld= x,shl= x, shin= 0
+#                   10 d = 1010, q= 0000,  rstn= 1,clr= x,ld= 1,shl= x, shin= 0
+#                   20 d = 1111, q= 0000,  rstn= 1,clr= 1,ld= 1,shl= x, shin= 0
+#                   30 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 1, shin= 0
+#                   40 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(49)
+#    Time: 90 ps  Iteration: 0  Instance: /tb_reg_with_benefits
+# 1
+# Break in Module tb_reg_with_benefits at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv line 49
+# Compile of 3_1_reg_with_benefits.sv was successful.
+vsim work.tb_reg_with_benefits
+# End time: 10:00:05 on Jun 16,2024, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 4
+# vsim work.tb_reg_with_benefits 
+# Start time: 10:00:05 on Jun 16,2024
+# Loading sv_std.std
+# Loading work.tb_reg_with_benefits
+# Loading work.reg_with_benefits
+run
+#                    0 d = 1010, q= 0000,  rstn= 0,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   10 d = 1010, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   20 d = 1111, q= 0000,  rstn= 1,clr= 1,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   30 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 1, shin= 0
+# 
+# 
+#                   40 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(52)
+#    Time: 90 ps  Iteration: 0  Instance: /tb_reg_with_benefits
+# 1
+# Break in Module tb_reg_with_benefits at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv line 52
+# Compile of 3_1_reg_with_benefits.sv was successful.
+vsim work.tb_reg_with_benefits
+# End time: 10:01:28 on Jun 16,2024, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# vsim work.tb_reg_with_benefits 
+# Start time: 10:01:28 on Jun 16,2024
+# Loading sv_std.std
+# Loading work.tb_reg_with_benefits
+# Loading work.reg_with_benefits
+run
+#                    0 d = 1010, q= 0000,  rstn= 0,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   10 d = 1010, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   30 d = 1111, q= 0000,  rstn= 1,clr= 1,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   40 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 1, shin= 0
+# 
+# 
+#                   50 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(52)
+#    Time: 100 ps  Iteration: 0  Instance: /tb_reg_with_benefits
+# 1
+# Break in Module tb_reg_with_benefits at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv line 52
+# Compile of 3_1_reg_with_benefits.sv was successful.
+vsim work.tb_reg_with_benefits
+# End time: 10:02:02 on Jun 16,2024, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 2
+# vsim work.tb_reg_with_benefits 
+# Start time: 10:02:02 on Jun 16,2024
+# Loading sv_std.std
+# Loading work.tb_reg_with_benefits
+# Loading work.reg_with_benefits
+run
+#                    0 d = 1010, q= 0000,  rstn= 0,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   10 d = 1010, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   15 d = 1010, q= 1010,  rstn= 1,clr= 0,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   30 d = 1111, q= 1010,  rstn= 1,clr= 1,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   35 d = 1111, q= 0000,  rstn= 1,clr= 1,ld= 1,shl= 0, shin= 0
+# 
+# 
+#                   40 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 1,shl= 1, shin= 0
+# 
+# 
+#                   45 d = 1111, q= 1111,  rstn= 1,clr= 0,ld= 1,shl= 1, shin= 0
+# 
+# 
+#                   50 d = 1111, q= 1111,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+#                   55 d = 1111, q= 1110,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+#                   65 d = 1111, q= 1100,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+#                   75 d = 1111, q= 1000,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+#                   85 d = 1111, q= 0000,  rstn= 1,clr= 0,ld= 0,shl= 1, shin= 0
+# 
+# 
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv(52)
+#    Time: 100 ps  Iteration: 0  Instance: /tb_reg_with_benefits
+# 1
+# Break in Module tb_reg_with_benefits at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv line 52
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
