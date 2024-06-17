@@ -1,4 +1,4 @@
-module fsm_prob_a (
+module fsm_prob_b (
     input  logic clk,
     rstn,
     i,
@@ -19,7 +19,7 @@ module fsm_prob_a (
     else begin
       case (state)
         A: state <= i ? B : A;
-        B: state <= j ? C : D;
+        B: state <= i ? C : D;
         C: state <= i ? B : j ? C : D;
         D: state <= i ? D : j ? C : A;
         default: state <= A;
@@ -28,65 +28,77 @@ module fsm_prob_a (
   end
   always_comb begin
     unique case (state)
-      A: st_out = i ? 2'b11 : 2'b10;
-      B: st_out = j ? 2'b01 : 2'b10;
-      C: st_out = i ? 2'b0 : j ? 2'b10 : 2'b11;
-      D: st_out = i ? 2'b0 : j ? 2'b10 : 2'b00;
+      A: st_out = 2'b11;
+      B: st_out = 2'b01;
+      C: st_out = 2'b10;
+      D: st_out = 2'b10;
 
     endcase
   end
-  assign x = st_out[1], y = st_out[0];
+  assign {x, y} = st_out;
 
 endmodule
 
 
-module tb_fsm_prob_a;
+module tb_fsm_prob_b;
   logic clk, rstn, i, j, x, y;
 
-  fsm_prob_a mut (.*);
+  fsm_prob_b mut (.*);
 
 
   initial begin
-    $monitor($time, "  ij = %b%b, xy = %b%b", i, j, x, y);
+    //$monitor($time, "  ij = %b%b, xy = %b%b", i, j, x, y);
     clk  = 0;
     rstn = 0;
     #1 rstn <= 1;
     forever #5 clk = ~clk;
+
   end
   initial begin
     i <= 1;
     j <= 1;
+
+
     @(posedge clk);  // a 2 b
-    assert ({x, y} == 2'b11)
-    else $display("failed: expected: 11 ");
+    #2
+      assert ({x, y} == 2'b01)
+      else $display("failed: expected: 01 ");
     j <= 0;
     @(posedge clk);  // b 2 d
-    assert ({x, y} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({x, y} == 2'b10)
+      else $display("failed: expected: 10 ");
     i <= 0;
     j <= 1;
     @(posedge clk);  // d 2 c
-    assert ({x, y} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({x, y} == 2'b10)
+      else $display("failed: expected: 10 ");
 
     @(posedge clk);  // c 2 c
-    assert ({x, y} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({x, y} == 2'b10)
+      else $display("failed: expected: 10 ");
     j <= 0;
     @(posedge clk);  // c 2 d
-    assert ({x, y} == 2'b11)
-    else $display("failed: expected: 11 ");
+    #2
+      assert ({x, y} == 2'b10)
+      else $display("failed: expected: 10 ");
     i <= 1;
     @(posedge clk);  // d 2 d
-    assert ({x, y} == 2'b0)
-    else $display("failed: expected: 00 ");
+    #2
+      assert ({x, y} == 2'b10)
+      else $display("failed: expected: 10 ");
     i <= 0;
     @(posedge clk);  // d 2 a
-    assert ({x, y} == 2'b0)
-    else $display("failed: expected: 00 ");
+    #2
+      assert ({x, y} == 2'b11)
+      else $display("failed: expected: 11 ");
     @(posedge clk);  // a 2 a
-    assert ({x, y} == 2'b10)
-    else $display("failed: expected: 10 ");
+
+    #2
+      assert ({x, y} == 2'b11)
+      else $display("failed: expected: 11 ");
 
     #2 $finish;
 
