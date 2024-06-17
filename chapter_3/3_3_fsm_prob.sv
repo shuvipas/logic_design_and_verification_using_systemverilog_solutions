@@ -47,13 +47,17 @@ module tb_fsm_prob_b;
 
 
   initial begin
-    //$monitor($time, "  ij = %b%b, xy = %b%b", i, j, x, y);
+
     clk  = 0;
     rstn = 0;
     #1 rstn <= 1;
     forever #5 clk = ~clk;
 
   end
+  always @(negedge clk)
+    $display(
+        $time, "  ij = %b%b, xy = %b%b", i, j, x, y
+    );  //negedge to print the corrent state io
   initial begin
     i <= 1;
     j <= 1;

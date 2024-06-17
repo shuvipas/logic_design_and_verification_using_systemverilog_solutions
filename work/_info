@@ -161,7 +161,7 @@ R12
 R13
 vfsm_prob_b
 R0
-R37
+Z40 !s110 1718612369
 !i10b 1
 !s100 UlLJ2Vn^l0ZQIl3kBbW_J3
 R2
@@ -169,16 +169,16 @@ IVg`9BS6^i_]fOGD3_TIb<0
 R3
 S1
 R4
-Z40 w1718608312
+Z41 w1718612363
 R23
 R24
-!i122 71
+!i122 78
 R25
 R8
 r1
 !s85 0
 31
-R39
+Z42 !s108 1718612369.000000
 R27
 R28
 !i113 1
@@ -219,9 +219,9 @@ IWK2kb]B@Lm[_DgLQI5nO?1
 R3
 S1
 R4
-Z41 w1718521455
-Z42 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
-Z43 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z43 w1718521455
+Z44 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z45 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
 !i122 69
 L0 1 20
 R8
@@ -229,8 +229,8 @@ r1
 !s85 0
 31
 R39
-Z44 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
-Z45 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z46 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z47 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
 !i113 1
 R12
 R13
@@ -298,7 +298,7 @@ R22
 R23
 R24
 !i122 60
-Z46 L0 43 57
+Z48 L0 43 57
 R8
 r1
 !s85 0
@@ -323,7 +323,7 @@ R30
 R31
 R32
 !i122 62
-Z47 L0 43 54
+Z49 L0 43 54
 R8
 r1
 !s85 0
@@ -348,7 +348,7 @@ R36
 R23
 R24
 !i122 63
-R46
+R48
 R8
 r1
 !s85 0
@@ -373,7 +373,7 @@ R38
 R31
 R32
 !i122 70
-R47
+R49
 R8
 r1
 !s85 0
@@ -386,24 +386,24 @@ R12
 R13
 vtb_fsm_prob_b
 R0
-R37
+R40
 !i10b 1
-!s100 LnmSdf4UkZ]S^i<m::Te[0
+!s100 >ISPiWn[Lf5=YQ@@O31F02
 R2
-Ic3LY]@jSmTnZf@EE=2F5k2
+I[09X3[35i3VFm0mjQaAbN3
 R3
 S1
 R4
-R40
+R41
 R23
 R24
-!i122 71
-L0 43 58
+!i122 78
+L0 43 67
 R8
 r1
 !s85 0
 31
-R39
+R42
 R27
 R28
 !i113 1
@@ -419,9 +419,9 @@ I=CRcziK=KFSYb;[C8YFJi2
 R3
 S1
 R4
-R41
-R42
 R43
+R44
+R45
 !i122 69
 L0 23 36
 R8
@@ -429,8 +429,8 @@ r1
 !s85 0
 31
 R39
-R44
-R45
+R46
+R47
 !i113 1
 R12
 R13

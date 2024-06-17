@@ -6,13 +6,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_reg_with_benefits
 
-} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv
+} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module fsm_prob_a
--- Compiling module tb_fsm_prob_a
+-- Compiling module char_type
+-- Compiling module tb_char_type
 
 Top level modules:
-	tb_fsm_prob_a
+	tb_char_type
 
 } {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -22,12 +22,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_change_machine
 
-} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_5_ascii_char_type.sv
+} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module char_type
--- Compiling module tb_char_type
+-- Compiling module fsm_prob_a
+-- Compiling module tb_fsm_prob_a
 
 Top level modules:
-	tb_char_type
+	tb_fsm_prob_a
 
 } {} {}}
