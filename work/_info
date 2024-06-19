@@ -223,20 +223,45 @@ Z44 w1718788924
 Z45 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv
 Z46 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv
 !i122 85
-L0 1 32
+Z47 L0 1 32
 R8
 r1
 !s85 0
 31
-Z47 !s108 1718788934.000000
-!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
-Z48 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
+Z48 !s108 1718788934.000000
+Z49 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
+Z50 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
+!i113 1
+R12
+R13
+vp3_5
+R0
+Z51 !s110 1718798748
+!i10b 1
+!s100 WEW<ijQai3F<NF9>O3ef83
+R2
+IRWiOLX:UDCVlMIm^]9VdX3
+R3
+S1
+R4
+Z52 w1718791045
+Z53 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
+Z54 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
+!i122 87
+R47
+R8
+r1
+!s85 0
+31
+Z55 !s108 1718798748.000000
+!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
+Z56 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
 !i113 1
 R12
 R13
 vreg_with_benefits
 R0
-Z49 !s110 1718608320
+Z57 !s110 1718608320
 !i10b 1
 !s100 K98a3`5KNMo@6nVUOTb=A1
 R2
@@ -244,18 +269,18 @@ IWK2kb]B@Lm[_DgLQI5nO?1
 R3
 S1
 R4
-Z50 w1718521455
-Z51 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
-Z52 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z58 w1718521455
+Z59 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z60 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
 !i122 69
 L0 1 20
 R8
 r1
 !s85 0
 31
-Z53 !s108 1718608320.000000
-Z54 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
-Z55 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z61 !s108 1718608320.000000
+Z62 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z63 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
 !i113 1
 R12
 R13
@@ -323,7 +348,7 @@ R22
 R23
 R24
 !i122 60
-Z56 L0 43 57
+Z64 L0 43 57
 R8
 r1
 !s85 0
@@ -348,7 +373,7 @@ R30
 R31
 R32
 !i122 62
-Z57 L0 43 54
+Z65 L0 43 54
 R8
 r1
 !s85 0
@@ -373,7 +398,7 @@ R36
 R23
 R24
 !i122 63
-R56
+R64
 R8
 r1
 !s85 0
@@ -398,7 +423,7 @@ R38
 R31
 R32
 !i122 82
-R57
+R65
 R8
 r1
 !s85 0
@@ -448,20 +473,45 @@ R44
 R45
 R46
 !i122 85
-L0 35 63
+Z66 L0 35 63
 R8
 r1
 !s85 0
 31
-R47
-Z58 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
 R48
+R49
+R50
+!i113 1
+R12
+R13
+vtb_p3_5
+R0
+R51
+!i10b 1
+!s100 [Zo:]MD6RU_JjJ7d`XEW33
+R2
+IAAg=]2MMlAol9m[=ZZLdl2
+R3
+S1
+R4
+R52
+R53
+R54
+!i122 87
+R66
+R8
+r1
+!s85 0
+31
+R55
+Z67 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
+R56
 !i113 1
 R12
 R13
 vtb_reg_with_benefits
 R0
-R49
+R57
 !i10b 1
 !s100 Y6XkKmZ@?k=;:n2=8l?jN0
 R2
@@ -469,18 +519,18 @@ I=CRcziK=KFSYb;[C8YFJi2
 R3
 S1
 R4
-R50
-R51
-R52
+R58
+R59
+R60
 !i122 69
 L0 23 36
 R8
 r1
 !s85 0
 31
-R53
-R54
-R55
+R61
+R62
+R63
 !i113 1
 R12
 R13

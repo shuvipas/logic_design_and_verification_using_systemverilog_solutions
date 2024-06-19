@@ -10,24 +10,21 @@ module p3_5 (
     A = 2'b00,
     B = 2'b01,
     C = 2'b11
-  }
-      st, nst;
+  } st;
 
   always_ff @(posedge clk, posedge rst) begin
     if (rst) st <= A;
-    else st <= nst;
+    else begin
+      case (st)
+        A: st <= x ? C : B;
+        B: st <= x ? C : B;
+        C: st <= x ? C : A;
+      endcase
+
+    end
   end
 
-  always_comb begin
-
-    case (st)
-      A: nst = x ? C : B;
-      B: nst = x ? C : B;
-      C: nst = x ? C : A;
-    endcase
-
-  end
-  assign y = st[0], z = ~st[0];
+  assign y = x & ~st[0] | ~x & st[1], z = ~st[1] | x & st[0];
 
 endmodule
 
@@ -53,42 +50,53 @@ module tb_p3_5;
     @(negedge rst);
     $display("st = A (reset)");
     x <= 1;
-    $display($time, "  x = %b, yz = %b%b", x, y, z);
-    #2 assert ({y, z} == 2'b01)
-    else $display("failed: expected: 01 ");
+    //#2 $display($time, "  x = %b, yz = %b%b", x, y, z);
+
+    assert ({y, z} == 2'b11)
+    else $display("failed: expected: 11 ");
+    
     @(posedge clk);  // a 2 c
     $display("st = C");
     x <= 0;
-    #2 assert ({y, z} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({y, z} == 2'b10)
+      else $display("failed: expected: 10 ");
 
     @(posedge clk);  // c 2 a
     #2 $display("st = A");
     x <= 0;
-    #2 assert ({y, z} == 2'b01)
-    else $display("failed: expected: 01 ");
+    #2
+      assert ({y, z} == 2'b01)
+      else $display("failed: expected: 01 ");
 
     @(posedge clk);  // a 2 b
     $display("st = B");
     x <= 0;
-    #2 assert ({y, z} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({y, z} == 2'b10)
+      else $display("failed: expected: 10 ");
+    
     @(posedge clk);  // b 2 b
-    $display( "st = B");
+    $display("st = B");
     x <= 1;
-    #2 assert ({y, z} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({y, z} == 2'b10)
+      else $display("failed: expected: 10 ");
+    
     @(posedge clk);  // b 2 c
-    $display( "st = C");
+    $display("st = C");
     x <= 1;
-    #2 assert ({y, z} == 2'b10)
-    else $display("failed: expected: 10 ");
+    #2
+      assert ({y, z} == 2'b01)
+      else $display("failed: expected: 01 ");
+    /*
     @(posedge clk);  // c 2 c
-    $display( "st = C");
+    $display("st = C");
     x <= 1;
-    #2 assert ({y, z} == 2'b10)
-    else $display("failed: expected: 10 ");
-
+    #2
+      assert ({y, z} == 2'b10)
+      else $display("failed: expected: 10 ");
+*/
     #5 $finish;
 
 

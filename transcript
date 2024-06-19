@@ -178,3 +178,61 @@ run
 #    Time: 67 ps  Iteration: 0  Instance: /tb_p3_4
 # 1
 # Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 92
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:02:19 on Jun 19,2024, Elapsed time: 2:40:00
+# Errors: 0, Warnings: 4
+# vsim work.tb_p3_5 
+# Start time: 15:02:19 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    3  x = x, yz = 01
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+#                   55  x = 1, yz = 10
+# st = C
+#                   65  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(92)
+#    Time: 67 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 92
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:05:55 on Jun 19,2024, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:05:55 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    3  x = x, yz = 01
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+#                   55  x = 1, yz = 10
+# st = C
+#                   65  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(92)
+#    Time: 67 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 92
