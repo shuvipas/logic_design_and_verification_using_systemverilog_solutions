@@ -211,24 +211,24 @@ R12
 R13
 vp3_4
 R0
-Z43 !s110 1718798986
+Z43 !s110 1718800961
 !i10b 1
-!s100 dW^eISd6]aeoD=Q0Cf53e2
+!s100 H?VY[aVd1S0e4Ni@K;BO03
 R2
-IfZh07DFcOhJ7z0g72O4Tl3
+I<HKYaiFh2e2Wa>NUV`k`P1
 R3
 S1
 R4
-Z44 w1718798908
+Z44 w1718800869
 Z45 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv
 Z46 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv
-!i122 89
-L0 1 32
+!i122 99
+L0 1 33
 R8
 r1
 !s85 0
 31
-Z47 !s108 1718798986.000000
+Z47 !s108 1718800961.000000
 Z48 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv|
 Z49 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv|
 !i113 1
@@ -236,24 +236,24 @@ R12
 R13
 vp3_5
 R0
-Z50 !s110 1718799476
+Z50 !s110 1718801371
 !i10b 1
-!s100 H;[ROjm7NizAocCg>C`;e1
+!s100 YImhREAE]H@^CCh=1<dJn2
 R2
-IIF_GXM5^aD8NI<0fS]KfW2
+IH?0I4<JJdCo4FflDQ<Hk30
 R3
 S1
 R4
-Z51 w1718799470
+Z51 w1718801366
 Z52 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
 Z53 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
-!i122 92
-L0 1 36
+!i122 101
+R25
 R8
 r1
 !s85 0
 31
-Z54 !s108 1718799476.000000
+Z54 !s108 1718801371.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
 Z55 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
 !i113 1
@@ -463,17 +463,17 @@ vtb_p3_4
 R0
 R43
 !i10b 1
-!s100 i]XLf6V=?m=?BAJX87FF^0
+!s100 H>OT=DTGE_?aio2>;;Xk_3
 R2
-INobd7FEU24m6JAO@=hc841
+I_hiVX;0QBLc:G4b4IoaI42
 R3
 S1
 R4
 R44
 R45
 R46
-!i122 89
-L0 35 63
+!i122 99
+L0 36 63
 R8
 r1
 !s85 0
@@ -488,17 +488,17 @@ vtb_p3_5
 R0
 R50
 !i10b 1
-!s100 <A[V]gWYGzlf4Bjh_K:n50
+!s100 9=TS?`JzIA2eCDa`>Y9TF1
 R2
-IRVd9fgD;RlTY8aj9z:eVJ1
+Iz79Z<3ak]eiJ^5eTY1@HQ1
 R3
 S1
 R4
 R51
 R52
 R53
-!i122 92
-L0 39 74
+!i122 101
+L0 43 76
 R8
 r1
 !s85 0

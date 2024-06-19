@@ -10,24 +10,28 @@ module p3_5 (
     A = 2'b00,
     B = 2'b01,
     C = 2'b11
-  } st;
-
+  } st,nst;
   always_ff @(posedge clk, posedge rst) begin
     if (rst) st <= A;
-    else begin
-      case (st)
-        A: st <= x ? C : B;
-        B: st <= x ? C : B;
-        C: st <= x ? C : A;
-      endcase
+    else st <= nst;
+  end
 
-    end
+  always_comb begin
+
+    case (st)
+      A: nst = x ? C : B;
+      B: nst = x ? C : B;
+      C: nst = x ? C : A;
+      default nst<= A;
+    endcase
+
   end
   always_comb begin
-    case (st)
+    unique case (st)
         A: {y,z} = x ? 2'b11 : 2'b01;
         B: {y,z} = 2'b10;
         C: {y,z} = x ? 2'b01 : 2'b10;
+        
       endcase
   end
 
@@ -42,7 +46,7 @@ module tb_p3_5;
   p3_4 mut (.*);
 
   initial begin
-    clk = 1;
+    clk = 0;
     rst = 1;
     #3 rst = 0;
   end
@@ -54,12 +58,14 @@ module tb_p3_5;
     );  //negedge to print the corrent state io
 
   initial begin
-  //  @(negedge rst);
+    @(negedge rst);
+    x<=1;
+    #30;
     $display("st = A (reset)");
     x <= 1;
-    #2 $display($time, "  x = %b, yz = %b%b", x, y, z);
+    //#2 $display($time, "  x = %b, yz = %b%b", x, y, z);
 
-    assert ({y, z} == 2'b11)
+    #2 assert ({y, z} == 2'b11)
     else $display("failed: expected: 11 ");
     
     @(posedge clk);  // a 2 c
@@ -70,7 +76,7 @@ module tb_p3_5;
       else $display("failed: expected: 10 ");
 
     @(posedge clk);  // c 2 a
-    #2 $display("st = A");
+    $display("st = A");
     x <= 0;
     #2
       assert ({y, z} == 2'b01)
@@ -104,7 +110,7 @@ module tb_p3_5;
       assert ({y, z} == 2'b10)
       else $display("failed: expected: 10 ");
 */
-    #5 $finish;
+    #45 $finish;
 
 
   end

@@ -352,3 +352,258 @@ run
 #    Time: 57 ps  Iteration: 0  Instance: /tb_p3_5
 # 1
 # Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 107
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:23:11 on Jun 19,2024, Elapsed time: 0:05:11
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:23:11 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    5  x = 1, yz = 01
+# failed: expected: 11 
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   55  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(107)
+#    Time: 57 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 107
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:33:52 on Jun 19,2024, Elapsed time: 0:10:41
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:33:52 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    5  x = 1, yz = 01
+# failed: expected: 11 
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   55  x = 1, yz = 10
+#                   65  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(107)
+#    Time: 67 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 107
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:35:51 on Jun 19,2024, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:35:51 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+# st = A (reset)
+# failed: expected: 11 
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   55  x = 1, yz = 10
+#                   65  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(107)
+#    Time: 67 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 107
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:37:26 on Jun 19,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:37:26 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+# st = A (reset)
+# failed: expected: 11 
+#                   10  x = 1, yz = 10
+# st = C
+#                   20  x = 0, yz = 10
+# st = A
+#                   30  x = 0, yz = 01
+# st = B
+#                   40  x = 0, yz = 10
+# st = B
+#                   50  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   60  x = 1, yz = 10
+#                   70  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(107)
+#    Time: 72 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 107
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:39:16 on Jun 19,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:39:16 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+# st = A (reset)
+# failed: expected: 11 
+#                   10  x = 1, yz = 10
+# st = C
+#                   20  x = 0, yz = 10
+# st = A
+#                   30  x = 0, yz = 01
+# st = B
+#                   40  x = 0, yz = 10
+# st = B
+#                   50  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   60  x = 1, yz = 10
+#                   70  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(109)
+#    Time: 72 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 109
+# Compile of 3_5_fsm.sv was successful.
+# Compile of 3_4_fsm.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_p3_5
+# End time: 15:42:46 on Jun 19,2024, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:42:46 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+#                   10  x = 1, yz = 10
+#                   20  x = 1, yz = 10
+#                   30  x = 1, yz = 10
+# st = A (reset)
+# failed: expected: 11 
+#                   40  x = 1, yz = 10
+# st = C
+#                   50  x = 0, yz = 10
+# st = A
+#                   60  x = 0, yz = 01
+# st = B
+#                   70  x = 0, yz = 10
+# st = B
+#                   80  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   90  x = 1, yz = 10
+#                  100  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(111)
+#    Time: 102 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 111
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:44:13 on Jun 19,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:44:13 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+#                   10  x = 1, yz = 10
+#                   20  x = 1, yz = 10
+#                   30  x = 1, yz = 10
+# st = A (reset)
+# failed: expected: 11 
+#                   40  x = 1, yz = 10
+# st = C
+#                   50  x = 0, yz = 10
+# st = A
+#                   60  x = 0, yz = 01
+# st = B
+#                   70  x = 0, yz = 10
+# st = B
+#                   80  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   90  x = 1, yz = 10
+#                  100  x = 1, yz = 10
+#                  110  x = 1, yz = 10
+#                  120  x = 1, yz = 10
+#                  130  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(111)
+#    Time: 132 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 111
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:49:36 on Jun 19,2024, Elapsed time: 0:05:23
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:49:36 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+#                   10  x = 1, yz = 10
+#                   20  x = 1, yz = 10
+#                   30  x = 1, yz = 10
+# st = A (reset)
+# failed: expected: 11 
+#                   40  x = 1, yz = 10
+# st = C
+#                   50  x = 0, yz = 10
+# st = A
+#                   60  x = 0, yz = 01
+# st = B
+#                   70  x = 0, yz = 10
+# st = B
+#                   80  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   90  x = 1, yz = 10
+#                  100  x = 1, yz = 10
+#                  110  x = 1, yz = 10
+#                  120  x = 1, yz = 10
+#                  130  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(113)
+#    Time: 132 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 113

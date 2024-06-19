@@ -24,6 +24,7 @@ module p3_4 (
       A: nst = x ? C : B;
       B: nst = x ? C : B;
       C: nst = x ? C : A;
+      default nst<= A;
     endcase
 
   end
