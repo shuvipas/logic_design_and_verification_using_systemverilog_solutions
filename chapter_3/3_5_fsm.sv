@@ -23,8 +23,15 @@ module p3_5 (
 
     end
   end
+  always_comb begin
+    case (st)
+        A: {y,z} = x ? 2'b11 : 2'b01;
+        B: {y,z} = 2'b10;
+        C: {y,z} = x ? 2'b01 : 2'b10;
+      endcase
+  end
 
-  assign y = x & ~st[0] | ~x & st[1], z = ~st[1] | x & st[0];
+  //assign y = x & ~st[0] | ~x & st[1], z = ~st[1] | x & st[0];
 
 endmodule
 
@@ -47,10 +54,10 @@ module tb_p3_5;
     );  //negedge to print the corrent state io
 
   initial begin
-    @(negedge rst);
+  //  @(negedge rst);
     $display("st = A (reset)");
     x <= 1;
-    //#2 $display($time, "  x = %b, yz = %b%b", x, y, z);
+    #2 $display($time, "  x = %b, yz = %b%b", x, y, z);
 
     assert ({y, z} == 2'b11)
     else $display("failed: expected: 11 ");

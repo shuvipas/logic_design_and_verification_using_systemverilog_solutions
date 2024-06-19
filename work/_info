@@ -211,57 +211,57 @@ R12
 R13
 vp3_4
 R0
-Z43 !s110 1718788934
+Z43 !s110 1718798986
 !i10b 1
 !s100 dW^eISd6]aeoD=Q0Cf53e2
 R2
-I>=P0DfM4lLj];DQ9?BE^o2
+IfZh07DFcOhJ7z0g72O4Tl3
 R3
 S1
 R4
-Z44 w1718788924
-Z45 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv
-Z46 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv
-!i122 85
-Z47 L0 1 32
+Z44 w1718798908
+Z45 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv
+Z46 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv
+!i122 89
+L0 1 32
 R8
 r1
 !s85 0
 31
-Z48 !s108 1718788934.000000
-Z49 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
-Z50 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv|
+Z47 !s108 1718798986.000000
+Z48 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv|
+Z49 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_fsm.sv|
 !i113 1
 R12
 R13
 vp3_5
 R0
-Z51 !s110 1718798748
+Z50 !s110 1718799476
 !i10b 1
-!s100 WEW<ijQai3F<NF9>O3ef83
+!s100 H;[ROjm7NizAocCg>C`;e1
 R2
-IRWiOLX:UDCVlMIm^]9VdX3
+IIF_GXM5^aD8NI<0fS]KfW2
 R3
 S1
 R4
-Z52 w1718791045
-Z53 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
-Z54 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
-!i122 87
-R47
+Z51 w1718799470
+Z52 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
+Z53 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv
+!i122 92
+L0 1 36
 R8
 r1
 !s85 0
 31
-Z55 !s108 1718798748.000000
+Z54 !s108 1718799476.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
-Z56 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
+Z55 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
 !i113 1
 R12
 R13
 vreg_with_benefits
 R0
-Z57 !s110 1718608320
+Z56 !s110 1718608320
 !i10b 1
 !s100 K98a3`5KNMo@6nVUOTb=A1
 R2
@@ -269,18 +269,18 @@ IWK2kb]B@Lm[_DgLQI5nO?1
 R3
 S1
 R4
-Z58 w1718521455
-Z59 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
-Z60 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z57 w1718521455
+Z58 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
+Z59 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv
 !i122 69
 L0 1 20
 R8
 r1
 !s85 0
 31
-Z61 !s108 1718608320.000000
-Z62 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
-Z63 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z60 !s108 1718608320.000000
+Z61 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
+Z62 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_1_reg_with_benefits.sv|
 !i113 1
 R12
 R13
@@ -348,7 +348,7 @@ R22
 R23
 R24
 !i122 60
-Z64 L0 43 57
+Z63 L0 43 57
 R8
 r1
 !s85 0
@@ -373,7 +373,7 @@ R30
 R31
 R32
 !i122 62
-Z65 L0 43 54
+Z64 L0 43 54
 R8
 r1
 !s85 0
@@ -398,7 +398,7 @@ R36
 R23
 R24
 !i122 63
-R64
+R63
 R8
 r1
 !s85 0
@@ -423,7 +423,7 @@ R38
 R31
 R32
 !i122 82
-R65
+R64
 R8
 r1
 !s85 0
@@ -465,53 +465,53 @@ R43
 !i10b 1
 !s100 i]XLf6V=?m=?BAJX87FF^0
 R2
-I[V]805@8BZd^j=njmV>lD0
+INobd7FEU24m6JAO@=hc841
 R3
 S1
 R4
 R44
 R45
 R46
-!i122 85
-Z66 L0 35 63
+!i122 89
+L0 35 63
 R8
 r1
 !s85 0
 31
+R47
 R48
 R49
-R50
 !i113 1
 R12
 R13
 vtb_p3_5
 R0
-R51
+R50
 !i10b 1
-!s100 [Zo:]MD6RU_JjJ7d`XEW33
+!s100 <A[V]gWYGzlf4Bjh_K:n50
 R2
-IAAg=]2MMlAol9m[=ZZLdl2
+IRVd9fgD;RlTY8aj9z:eVJ1
 R3
 S1
 R4
+R51
 R52
 R53
-R54
-!i122 87
-R66
+!i122 92
+L0 39 74
 R8
 r1
 !s85 0
 31
+R54
+Z65 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
 R55
-Z67 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv|
-R56
 !i113 1
 R12
 R13
 vtb_reg_with_benefits
 R0
-R57
+R56
 !i10b 1
 !s100 Y6XkKmZ@?k=;:n2=8l?jN0
 R2
@@ -519,18 +519,18 @@ I=CRcziK=KFSYb;[C8YFJi2
 R3
 S1
 R4
+R57
 R58
 R59
-R60
 !i122 69
 L0 23 36
 R8
 r1
 !s85 0
 31
+R60
 R61
 R62
-R63
 !i113 1
 R12
 R13
