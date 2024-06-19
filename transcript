@@ -607,3 +607,69 @@ run
 #    Time: 132 ps  Iteration: 0  Instance: /tb_p3_5
 # 1
 # Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 113
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:51:46 on Jun 19,2024, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_5 
+# Start time: 15:51:46 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+#                   10  x = 1, yz = 10
+#                   20  x = 1, yz = 10
+#                   30  x = 1, yz = 10
+# st = A (reset)
+# failed: expected: 11 
+#                   40  x = 1, yz = 10
+# st = C
+#                   50  x = 0, yz = 10
+# st = A
+#                   60  x = 0, yz = 01
+# st = B
+#                   70  x = 0, yz = 10
+# st = B
+#                   80  x = 1, yz = 10
+# st = C
+# failed: expected: 01 
+#                   90  x = 1, yz = 10
+#                  100  x = 1, yz = 10
+#                  110  x = 1, yz = 10
+#                  120  x = 1, yz = 10
+#                  130  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv(113)
+#    Time: 132 ps  Iteration: 0  Instance: /tb_p3_5
+# 1
+# Break in Module tb_p3_5 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv line 113
+# Compile of 3_5_fsm.sv failed with 1 errors.
+# Compile of 3_5_fsm.sv failed with 2 errors.
+# Compile of 3_5_fsm.sv failed with 2 errors.
+# Compile of 3_5_fsm.sv was successful.
+vsim work.tb_p3_5
+# End time: 15:57:02 on Jun 19,2024, Elapsed time: 0:05:16
+# Errors: 0, Warnings: 5
+# vsim work.tb_p3_5 
+# Start time: 15:57:02 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+# ** Error: (vsim-3043) Unresolved reference to 'st'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_p3_5 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv Line: 60
+# Error loading design
+# End time: 15:57:02 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+run
+# No Design Loaded!
+vsim work.tb_p3_5
+# vsim work.tb_p3_5 
+# Start time: 15:57:24 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_5
+# Loading work.p3_4
+# ** Error: (vsim-3043) Unresolved reference to 'st'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_p3_5 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_5_fsm.sv Line: 60
+# Error loading design
+# End time: 15:57:24 on Jun 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1

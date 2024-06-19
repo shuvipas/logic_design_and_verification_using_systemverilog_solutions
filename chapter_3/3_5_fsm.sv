@@ -2,15 +2,17 @@ module p3_5 (
     input  logic x,
     clk,
     rst,
+    output logic [1:0] state,
     output logic y,
     z
 );
-
+  
   enum logic [1:0] {
     A = 2'b00,
     B = 2'b01,
     C = 2'b11
   } st,nst;
+  assign state = st;
   always_ff @(posedge clk, posedge rst) begin
     if (rst) st <= A;
     else st <= nst;
@@ -30,7 +32,7 @@ module p3_5 (
     unique case (st)
         A: {y,z} = x ? 2'b11 : 2'b01;
         B: {y,z} = 2'b10;
-        C: {y,z} = x ? 2'b01 : 2'b10;
+        C: {y,z} = 2'b0;//x ? 2'b01 : 2'b10;
         
       endcase
   end
@@ -42,6 +44,7 @@ endmodule
 
 module tb_p3_5;
   logic x, clk, rst, y, z;
+  logic [1:0] state;
 
   p3_4 mut (.*);
 
@@ -54,7 +57,7 @@ module tb_p3_5;
   always #5 clk = ~clk;
   always @(negedge clk)
     $display(
-        $time, "  x = %b, yz = %b%b", x, y, z
+        $time, "  st =%b  x = %b, yz = %b%b",st, x, y, z
     );  //negedge to print the corrent state io
 
   initial begin
