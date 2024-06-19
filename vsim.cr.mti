@@ -6,6 +6,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	tb_reg_with_benefits
 
+} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_2_fsm_prob.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_prob_a
+-- Compiling module tb_fsm_prob_a
+
+Top level modules:
+	tb_fsm_prob_a
+
 } {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_2/2_6_change_machine.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module change_machine

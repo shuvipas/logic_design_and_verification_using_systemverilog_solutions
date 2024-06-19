@@ -30,3 +30,151 @@ run
 #    Time: 80 ps  Iteration: 0  Instance: /tb_fsm_prob_b
 # 1
 # Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 107
+# Compile of 3_4_prob.sv failed with 3 errors.
+# Compile of 3_4_prob.sv was successful.
+vsim work.tb_p3_4
+# End time: 11:03:10 on Jun 19,2024, Elapsed time: 0:46:30
+# Errors: 0, Warnings: 4
+# vsim work.tb_p3_4 
+# Start time: 11:03:10 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_4
+# Loading work.p3_4
+run
+#                    0st=A (reset)  x = x, yz = xx
+# failed: expected: 01 
+#                    0  x = x, yz = xx
+# failed: expected: 10 
+#                   11  x = 0, yz = 10
+# failed: expected: 01 
+#                   21  x = 0, yz = 01
+# failed: expected: 10 
+#                   31  x = 0, yz = 10
+#                   41  x = 1, yz = 10
+#                   51  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv(84)
+#    Time: 61 ps  Iteration: 0  Instance: /tb_p3_4
+# 1
+# Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 84
+# Compile of 3_4_prob.sv was successful.
+# Compile of 3_2_fsm_prob.sv was successful.
+vsim work.tb_p3_4
+# End time: 12:13:10 on Jun 19,2024, Elapsed time: 1:10:00
+# Errors: 0, Warnings: 3
+# vsim work.tb_p3_4 
+# Start time: 12:13:10 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_4
+# Loading work.p3_4
+run
+#                    0st = A (reset)  x = x, yz = xx
+# failed: expected: 01 
+#                    0  x = x, yz = xx
+# st = C
+# failed: expected: 10 
+#                   10  x = 0, yz = 01
+# st = A
+#                   20  x = 0, yz = 10
+# st = B
+#                   30  x = 0, yz = 10
+# st = B
+#                   40  x = 1, yz = 10
+# st = C
+#                   50  x = 1, yz = 10
+# st = C
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv(91)
+#    Time: 60 ps  Iteration: 0  Instance: /tb_p3_4
+# 1
+# Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 91
+# Compile of 3_4_prob.sv was successful.
+vsim work.tb_p3_4
+# End time: 12:15:23 on Jun 19,2024, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_4 
+# Start time: 12:15:23 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_4
+# Loading work.p3_4
+run
+#                    0  x = x, yz = xx
+# st = A (reset)
+#                    6  x = x, yz = 01
+#                   10  x = 1, yz = 01
+# st = C
+# failed: expected: 10 
+#                   20  x = 0, yz = 10
+# st = A
+# failed: expected: 01 
+#                   30  x = 0, yz = 01
+# st = B
+# failed: expected: 10 
+#                   40  x = 0, yz = 10
+# st = B
+#                   50  x = 1, yz = 10
+# st = C
+#                   60  x = 1, yz = 10
+# st = C
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv(92)
+#    Time: 70 ps  Iteration: 0  Instance: /tb_p3_4
+# 1
+# Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 92
+# Compile of 3_4_prob.sv was successful.
+vsim work.tb_p3_4
+# End time: 12:20:14 on Jun 19,2024, Elapsed time: 0:04:51
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_4 
+# Start time: 12:20:14 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_4
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    3  x = x, yz = 01
+#                    5  x = 1, yz = 01
+# st = C
+# failed: expected: 10 
+#                   15  x = 0, yz = 10
+# st = A
+# failed: expected: 01 
+#                   25  x = 0, yz = 01
+# st = B
+# failed: expected: 10 
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+#                   55  x = 1, yz = 10
+# st = C
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv(92)
+#    Time: 65 ps  Iteration: 0  Instance: /tb_p3_4
+# 1
+# Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 92
+# Compile of 3_4_prob.sv was successful.
+vsim work.tb_p3_4
+# End time: 12:22:19 on Jun 19,2024, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 2
+# vsim work.tb_p3_4 
+# Start time: 12:22:19 on Jun 19,2024
+# Loading sv_std.std
+# Loading work.tb_p3_4
+# Loading work.p3_4
+run
+# st = A (reset)
+#                    3  x = x, yz = 01
+#                    5  x = 1, yz = 01
+# st = C
+#                   15  x = 0, yz = 10
+# st = A
+#                   25  x = 0, yz = 01
+# st = B
+#                   35  x = 0, yz = 10
+# st = B
+#                   45  x = 1, yz = 10
+# st = C
+#                   55  x = 1, yz = 10
+# st = C
+#                   65  x = 1, yz = 10
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv(92)
+#    Time: 67 ps  Iteration: 0  Instance: /tb_p3_4
+# 1
+# Break in Module tb_p3_4 at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_4_prob.sv line 92
