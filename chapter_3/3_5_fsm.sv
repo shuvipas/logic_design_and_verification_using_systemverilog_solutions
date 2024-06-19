@@ -4,7 +4,7 @@ module p3_5 (
     rst,
     output logic [1:0] state,
     output logic y,
-    z
+    z 
 );
   
   enum logic [1:0] {
