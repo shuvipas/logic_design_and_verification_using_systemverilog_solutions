@@ -1,82 +1,24 @@
 # Loading project vsim
 # Compile of 3_3_fsm_prob.sv was successful.
-vsim work.tb_fsm_prob_b
-# vsim work.tb_fsm_prob_b 
-# Start time: 11:16:04 on Jun 17,2024
+vsim work.fsm_prob_b
+# vsim work.fsm_prob_b 
+# Start time: 10:16:07 on Jun 19,2024
 # Loading sv_std.std
-# Loading work.tb_fsm_prob_b
 # Loading work.fsm_prob_b
 run
-#                    6  ij = 11, xy = 11
-#                   16  ij = 10, xy = 01
-#                   26  ij = 01, xy = 10
-#                   36  ij = 01, xy = 10
-#                   46  ij = 00, xy = 10
-#                   56  ij = 10, xy = 10
-#                   66  ij = 00, xy = 10
-#                   76  ij = 00, xy = 11
-# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv(104)
-#    Time: 80 ps  Iteration: 0  Instance: /tb_fsm_prob_b
-# 1
-# Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 104
-# Compile of 3_3_fsm_prob.sv was successful.
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Process: /fsm_prob_b/#implicit#unique__30 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv Line: 30
+run
 vsim work.tb_fsm_prob_b
-# End time: 11:17:36 on Jun 17,2024, Elapsed time: 0:01:32
+# End time: 10:16:40 on Jun 19,2024, Elapsed time: 0:00:33
 # Errors: 0, Warnings: 3
 # vsim work.tb_fsm_prob_b 
-# Start time: 11:17:36 on Jun 17,2024
+# Start time: 10:16:40 on Jun 19,2024
 # Loading sv_std.std
 # Loading work.tb_fsm_prob_b
 # Loading work.fsm_prob_b
 run
-#                    6  ij = 11, xy = 11
-# failed: expected: 01 
-#                   16  ij = 10, xy = 01
-# failed: expected: 10 
-#                   26  ij = 01, xy = 10
-#                   36  ij = 01, xy = 10
-#                   46  ij = 00, xy = 10
-#                   56  ij = 10, xy = 10
-#                   66  ij = 00, xy = 10
-# failed: expected: 11 
-#                   76  ij = 00, xy = 11
-# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv(104)
-#    Time: 78 ps  Iteration: 0  Instance: /tb_fsm_prob_b
-# 1
-# Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 104
-# Compile of 3_3_fsm_prob.sv was successful.
-vsim work.tb_fsm_prob_b
-# End time: 11:18:47 on Jun 17,2024, Elapsed time: 0:01:11
-# Errors: 0, Warnings: 2
-# vsim work.tb_fsm_prob_b 
-# Start time: 11:18:47 on Jun 17,2024
-# Loading sv_std.std
-# Loading work.tb_fsm_prob_b
-# Loading work.fsm_prob_b
-run
-#                    6  ij = 11, xy = 11
-#                   16  ij = 10, xy = 01
-#                   26  ij = 01, xy = 10
-#                   36  ij = 01, xy = 10
-#                   46  ij = 00, xy = 10
-#                   56  ij = 10, xy = 10
-#                   66  ij = 00, xy = 10
-#                   76  ij = 00, xy = 11
-# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv(104)
-#    Time: 80 ps  Iteration: 0  Instance: /tb_fsm_prob_b
-# 1
-# Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 104
-# Compile of 3_3_fsm_prob.sv was successful.
-vsim work.tb_fsm_prob_b
-# End time: 11:19:34 on Jun 17,2024, Elapsed time: 0:00:47
-# Errors: 0, Warnings: 2
-# vsim work.tb_fsm_prob_b 
-# Start time: 11:19:34 on Jun 17,2024
-# Loading sv_std.std
-# Loading work.tb_fsm_prob_b
-# Loading work.fsm_prob_b
-run
-#                    0  ij = xx, xy = 11
+#                    0  ij = xx, xy = xx
 #                   11  ij = 10, xy = 01
 #                   21  ij = 01, xy = 10
 #                   31  ij = 01, xy = 10
@@ -84,7 +26,7 @@ run
 #                   51  ij = 10, xy = 10
 #                   61  ij = 00, xy = 10
 #                   71  ij = 00, xy = 11
-# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv(104)
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv(107)
 #    Time: 80 ps  Iteration: 0  Instance: /tb_fsm_prob_b
 # 1
-# Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 104
+# Break in Module tb_fsm_prob_b at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_3/3_3_fsm_prob.sv line 107

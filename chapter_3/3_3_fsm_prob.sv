@@ -8,7 +8,7 @@ module fsm_prob_b (
 );
   logic [1:0] st_out;
 
-  enum {
+  enum logic [1:0] {
     A,
     B,
     C,
