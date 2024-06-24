@@ -245,3 +245,48 @@ run
 #                   78 in = 1 valid = 0
 #                   88 in = 1 valid = 1
 #                   98 in = 0 valid = 0
+# Compile of 5_1_two_of_fivet.sv was successful.
+vsim work.tb_two_of_five
+# End time: 16:30:17 on Jun 24,2024, Elapsed time: 1:05:22
+# Errors: 0, Warnings: 2
+# vsim work.tb_two_of_five 
+# Start time: 16:30:17 on Jun 24,2024
+# Loading sv_std.std
+# Loading work.tb_two_of_five
+# Loading work.two_of_five
+run
+#                    3 in = 1 valid = 0
+#                    8 in = 0 valid = 0
+#                   18 in = 1 valid = 0
+#                   28 in = 0 valid = 0
+#                   38 in = 0 valid = 1
+#                   48 in = 0 valid = 0
+#                   58 in = 1 valid = 0
+#                   68 in = 1 valid = 0
+#                   78 in = 1 valid = 0
+#                   88 in = 0 valid = 0
+# Compile of 5_1_two_of_fivet.sv failed with 1 errors.
+# Compile of 5_1_two_of_fivet.sv was successful.
+vsim work.tb_two_of_five
+# End time: 16:32:04 on Jun 24,2024, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 3
+# vsim work.tb_two_of_five 
+# Start time: 16:32:04 on Jun 24,2024
+# Loading sv_std.std
+# Loading work.tb_two_of_five
+# Loading work.two_of_five
+run
+#                    3 in = 1 valid = 0
+#                    8 in = 0 valid = 0
+#                   18 in = 1 valid = 0
+#                   28 in = 0 valid = 0
+#                   38 in = 0 valid = 1
+#                   48 in = 0 valid = 0
+#                   58 in = 1 valid = 0
+#                   68 in = 1 valid = 0
+#                   78 in = 1 valid = 0
+#                   88 in = 0 valid = 0
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv(63)
+#    Time: 120 ps  Iteration: 0  Instance: /tb_two_of_five
+# 1
+# Break in Module tb_two_of_five at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv line 63

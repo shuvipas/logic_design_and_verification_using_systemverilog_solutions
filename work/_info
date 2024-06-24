@@ -536,24 +536,24 @@ R12
 R13
 vtb_two_of_five
 R0
-Z66 !s110 1719231892
+Z66 !s110 1719235920
 !i10b 1
-!s100 @0@_5N=n`UUeTz]aCckE03
+!s100 m:eDLW?OjoF0VKZo9Dc010
 R2
-IGdT;jn>6a>VnX7n4]29b90
+IZ[K>3hGRih@Hn74l[>ZDc1
 R3
 S1
 R4
-Z67 w1719231884
+Z67 w1719235917
 Z68 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
 Z69 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
-!i122 149
-L0 37 34
+!i122 152
+L0 37 31
 R8
 r1
 !s85 0
 31
-Z70 !s108 1719231892.000000
+Z70 !s108 1719235920.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
 Z71 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
 !i113 1
@@ -572,7 +572,7 @@ R4
 R67
 R68
 R69
-!i122 149
+!i122 152
 L0 2 33
 R8
 r1

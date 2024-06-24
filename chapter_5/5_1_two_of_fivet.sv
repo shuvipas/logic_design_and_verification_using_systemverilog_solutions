@@ -45,9 +45,7 @@ module tb_two_of_five;
   initial begin
     clk = 0;
     rstn = 0;
-    in =0;
     ser_in = 10'b01110_00101;
-   // last5 = 5'bx;
     #1 rstn = 1;
   end
 
@@ -55,15 +53,14 @@ module tb_two_of_five;
 
 
   initial begin
-  //  $monitor($time, " in = %b valid = %b", in, valid);
     for (int i = 0; i < 10; ++i) begin
-      @(posedge clk);
+      
       in <= ser_in[i];
-     // last5 = i>4? ser_in[9:5]:ser_in[4:0];
       #3 $display($time, " in = %b valid = %b", in, valid);
+      @(posedge clk);
 
     end
-   // #225 $finish;
+    #25 $finish;
 
   end
 
