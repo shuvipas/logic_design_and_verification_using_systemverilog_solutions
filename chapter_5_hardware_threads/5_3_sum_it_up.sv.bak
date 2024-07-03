@@ -1,4 +1,4 @@
-// i need to design the module again
+
 module sum_it_up (
     input logic clk,
     rstn,
@@ -40,7 +40,7 @@ module sum_it_up (
 //    overflow = add_out[16];
     err = (st == sERR) ? 1'b1 : 1'b0;
     in_aeq = ina == '0;
-    ldn = ~(((st == sA) & ~gon) | ((st == sB) & ~in_aeq));
+    ldn = ~(((st == sA) & ~gon) | ((st == sB & ~in_aeq));
     cln = ~(st == sB & ~in_aeq) | err;
     done = (st == sB & in_aeq) & ~err;
 
