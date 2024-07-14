@@ -309,6 +309,31 @@ Z70 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/log
 !i113 1
 R12
 R13
+vserial_adder
+R0
+!s110 1720944162
+!i10b 1
+!s100 5J9ibTH2<8KFdBQ^UU3>i3
+R2
+IbUzBfiEO?E[8P[>i27Ge92
+R3
+S1
+R4
+w1720944157
+8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
+F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
+!i122 171
+L0 1 22
+R8
+r1
+!s85 0
+31
+!s108 1720944161.000000
+!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
+!i113 1
+R12
+R13
 vsum_it_up
 R0
 Z71 !s110 1719740190
@@ -329,8 +354,8 @@ r1
 !s85 0
 31
 Z75 !s108 1719740190.000000
-!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
-Z76 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
+Z76 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
+Z77 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
 !i113 1
 R12
 R13
@@ -423,7 +448,7 @@ R29
 R30
 R31
 !i122 60
-Z77 L0 43 57
+Z78 L0 43 57
 R8
 r1
 !s85 0
@@ -448,7 +473,7 @@ R37
 R38
 R39
 !i122 62
-Z78 L0 43 54
+Z79 L0 43 54
 R8
 r1
 !s85 0
@@ -473,7 +498,7 @@ R43
 R30
 R31
 !i122 63
-R77
+R78
 R8
 r1
 !s85 0
@@ -498,7 +523,7 @@ R45
 R38
 R39
 !i122 82
-R78
+R79
 R8
 r1
 !s85 0
@@ -629,8 +654,8 @@ r1
 !s85 0
 31
 R75
-Z79 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
 R76
+R77
 !i113 1
 R12
 R13
