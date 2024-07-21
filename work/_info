@@ -311,32 +311,82 @@ R12
 R13
 vserial_adder
 R0
-!s110 1720944162
+Z71 !s110 1721548303
 !i10b 1
-!s100 5J9ibTH2<8KFdBQ^UU3>i3
+!s100 kkA;^Z3DV^dQ<9P>7UYHQ1
 R2
-IbUzBfiEO?E[8P[>i27Ge92
+I7i:G[T?jc4a3hXHkK`G6_1
 R3
 S1
 R4
-w1720944157
-8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
-F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
-!i122 171
-L0 1 22
+Z72 w1721548300
+Z73 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
+Z74 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
+!i122 182
+L0 1 76
 R8
 r1
 !s85 0
 31
-!s108 1720944161.000000
-!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
+Z75 !s108 1721548303.000000
+Z76 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
+Z77 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
+!i113 1
+R12
+R13
+vserial_adder_tb
+R0
+!s110 1721548051
+!i10b 1
+!s100 QdD0`KVB1VU8[VLJzZFY<1
+R2
+If;SO:SIgZ2c;P>WSaokUh0
+R3
+S1
+R4
+w1721548048
+R73
+R74
+!i122 178
+L0 89 70
+R8
+r1
+!s85 0
+31
+!s108 1721548051.000000
+R76
+R77
+!i113 1
+R12
+R13
+vsimple_adder
+R0
+R71
+!i10b 1
+!s100 ?T_BeTM`BE9OSdT[:Pi?D1
+R2
+ITo1?2_^B[TSjXZ75[Wz?63
+R3
+S1
+R4
+R72
+R73
+R74
+!i122 182
+L0 78 10
+R8
+r1
+!s85 0
+31
+R75
+R76
+R77
 !i113 1
 R12
 R13
 vsum_it_up
 R0
-Z71 !s110 1719740190
+Z78 !s110 1719740190
 !i10b 1
 !s100 CB9GA?PE9abT7jlJN=MO60
 R2
@@ -344,18 +394,18 @@ IB@d7;E2Im1^NJhP[i`HXk3
 R3
 S1
 R4
-Z72 w1719740187
-Z73 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv
-Z74 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv
+Z79 w1719740187
+Z80 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv
+Z81 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv
 !i122 170
 L0 2 48
 R8
 r1
 !s85 0
 31
-Z75 !s108 1719740190.000000
-Z76 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
-Z77 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
+Z82 !s108 1719740190.000000
+Z83 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
+Z84 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_3_sum_it_up.sv|
 !i113 1
 R12
 R13
@@ -448,7 +498,7 @@ R29
 R30
 R31
 !i122 60
-Z78 L0 43 57
+Z85 L0 43 57
 R8
 r1
 !s85 0
@@ -473,7 +523,7 @@ R37
 R38
 R39
 !i122 62
-Z79 L0 43 54
+Z86 L0 43 54
 R8
 r1
 !s85 0
@@ -498,7 +548,7 @@ R43
 R30
 R31
 !i122 63
-R78
+R85
 R8
 r1
 !s85 0
@@ -523,7 +573,7 @@ R45
 R38
 R39
 !i122 82
-R79
+R86
 R8
 r1
 !s85 0
@@ -634,21 +684,21 @@ R70
 !i113 1
 R12
 R13
-vtb_sum_it_up
+vtb_serial_adder
 R0
 R71
 !i10b 1
-!s100 3@8?ezBGWW[lEHJ@0o0`X2
+!s100 <V7XJTRTUFY4AjlEIhG593
 R2
-I6PHAC9bgi2fa>j:J9Gb0g3
+IXefV`?`ESjQo8WdZilZ7l1
 R3
 S1
 R4
 R72
 R73
 R74
-!i122 170
-L0 52 80
+!i122 182
+L0 89 71
 R8
 r1
 !s85 0
@@ -659,9 +709,34 @@ R77
 !i113 1
 R12
 R13
+vtb_sum_it_up
+R0
+R78
+!i10b 1
+!s100 3@8?ezBGWW[lEHJ@0o0`X2
+R2
+I6PHAC9bgi2fa>j:J9Gb0g3
+R3
+S1
+R4
+R79
+R80
+R81
+!i122 170
+L0 52 80
+R8
+r1
+!s85 0
+31
+R82
+R83
+R84
+!i113 1
+R12
+R13
 vtb_two_of_five
 R0
-Z80 !s110 1719235920
+Z87 !s110 1719235920
 !i10b 1
 !s100 m:eDLW?OjoF0VKZo9Dc010
 R2
@@ -669,24 +744,24 @@ IZ[K>3hGRih@Hn74l[>ZDc1
 R3
 S1
 R4
-Z81 w1719235917
-Z82 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
-Z83 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
+Z88 w1719235917
+Z89 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
+Z90 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
 !i122 152
 L0 37 31
 R8
 r1
 !s85 0
 31
-Z84 !s108 1719235920.000000
-Z85 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
-Z86 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
+Z91 !s108 1719235920.000000
+Z92 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
+Z93 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv|
 !i113 1
 R12
 R13
 vtwo_of_five
 R0
-R80
+R87
 !i10b 1
 !s100 KWd`:[HDEPR`NIe0?`hY[3
 R2
@@ -694,18 +769,18 @@ IaJLk^hUgna]@RY7PcMgbR2
 R3
 S1
 R4
-R81
-R82
-R83
+R88
+R89
+R90
 !i122 152
 L0 2 33
 R8
 r1
 !s85 0
 31
-R84
-R85
-R86
+R91
+R92
+R93
 !i113 1
 R12
 R13

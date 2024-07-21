@@ -1,3 +1,64 @@
 # Loading project vsim
-# Compile of 5_5_serial_adder.sv failed with 2 errors.
 # Compile of 5_5_serial_adder.sv was successful.
+# Compile of 5_5_serial_adder.sv was successful.
+# Load canceled
+# Compile of 5_5_serial_adder.sv was successful.
+# Compile of 5_5_serial_adder.sv was successful.
+vsim work.tb_serial_adder
+# vsim work.tb_serial_adder 
+# Start time: 10:48:24 on Jul 21,2024
+# Loading sv_std.std
+# Loading work.tb_serial_adder
+# Loading work.serial_adder
+# Loading work.simple_adder
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Sum: 62, Expected: 8
+# ** Error: Test Case 1 Failed!
+#    Time: 65 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 140
+# Sum: 62, Expected: 25
+# ** Error: Test Case 2 Failed!
+#    Time: 75 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 150
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv(155)
+#    Time: 75 ps  Iteration: 0  Instance: /tb_serial_adder
+# 1
+# Break in Module tb_serial_adder at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv line 155
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# Sum: 62, Expected: 8
+# ** Error: Test Case 1 Failed!
+#    Time: 65 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 140
+# Sum: 62, Expected: 25
+# ** Error: Test Case 2 Failed!
+#    Time: 75 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 150
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv(155)
+#    Time: 75 ps  Iteration: 0  Instance: /tb_serial_adder
+# 1
+# Break in Module tb_serial_adder at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv line 155
+# Compile of 5_5_serial_adder.sv failed with 1 errors.
+# Compile of 5_5_serial_adder.sv was successful.
+vsim work.tb_serial_adder
+# End time: 10:51:53 on Jul 21,2024, Elapsed time: 0:03:29
+# Errors: 2, Warnings: 3
+# vsim work.tb_serial_adder 
+# Start time: 10:51:53 on Jul 21,2024
+# Loading sv_std.std
+# Loading work.tb_serial_adder
+# Loading work.serial_adder
+# Loading work.simple_adder
+run
+# a= 0, b=0
+# a= 1, b=1
+# Sum: 62, Expected: 8
+# ** Error: Test Case 1 Failed!
+#    Time: 65 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 141
+# a= 1, b=0
+# Sum: 62, Expected: 25
+# ** Error: Test Case 2 Failed!
+#    Time: 75 ps  Scope: tb_serial_adder File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv Line: 151
+# ** Note: $finish    : /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv(156)
+#    Time: 75 ps  Iteration: 0  Instance: /tb_serial_adder
+# 1
+# Break in Module tb_serial_adder at /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv line 156

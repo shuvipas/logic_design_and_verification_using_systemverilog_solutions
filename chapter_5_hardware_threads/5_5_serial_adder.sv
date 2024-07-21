@@ -1,15 +1,19 @@
+// i need to come back to this and write a test bench
 module serial_adder (
     input logic a,
     b,
+    start,
     rstn,
     clk,
     output logic [5:0] sum,
     output logic done,
     cout,
-    zwro
+    zero, 
+    neg,
+    twos_overflow
 );
 
-  logic rst_carry, cin, c_out_adder,sum_adder ;
+  logic rst_carry, cin, shift, c_out_adder, sum_adder;
   enum logic [2:0] {
     s0,
     s1,
@@ -35,21 +39,51 @@ module serial_adder (
         default: st <= s0;
       endcase
   end
-  assign rst_carry = st == s6;
-
+  
+  //data path
   always_ff @(posedge clk, negedge rstn) begin
-    if (~rsn) cin <= 1'b0;
+    if (~rstn) cin <= 1'b0;
     else cin <= rst_carry ? 1'b0 : c_out_adder;
   end
 
-//data path
 
-//sum register
-  always_ff @(posedge clk, negedge rstn) begin
-        if (~rstn) sum <= 6'b0;
-    else
- 
+  simple_adder a1 (
+      a,
+      b,
+      cin,
+      sum_adder,
+      c_out_adder
+  );
+  always_comb begin
+    rst_carry = 1'b0;
+    done = 1'b0;
+    shift = 1'b1;
+    if (st == s6) begin
+      rst_carry = 1'b1;
+      done = 1'b1;
+      shift = 1'b0;
+      zero = sum == 6'b0;
+      twos_overflow = a^b |a^sum[5]; // == ~(~(a^b)&~(a^sum[6]))
+      neg = twos_overflow? cout: sum[5];
+    end
   end
 
+  //sum register
+  always_ff @(posedge clk, negedge rstn) begin
+    if (~rstn) sum <= 6'b0;
+    else sum <= shift ? {sum_adder, sum[5:1]} : 6'b0;  // shift =1, clear for ~shift
+  end
+
+
+endmodule
+
+module simple_adder (
+    input  logic a,
+    b,
+    cin,
+    output logic sum,
+    cout
+);
+  assign sum = a ^ b ^ cin, cout = a & b | a & cin | b & cin;
 
 endmodule
