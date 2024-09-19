@@ -311,24 +311,24 @@ R12
 R13
 vserial_adder
 R0
-Z71 !s110 1721548303
+Z71 !s110 1721552724
 !i10b 1
-!s100 kkA;^Z3DV^dQ<9P>7UYHQ1
+!s100 ?j;d2l[biaIFO5gUhIDi;2
 R2
-I7i:G[T?jc4a3hXHkK`G6_1
+IjJzY`YKKPPX<Q6@P@Pc`R3
 R3
 S1
 R4
-Z72 w1721548300
+Z72 w1721549454
 Z73 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
 Z74 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv
-!i122 182
-L0 1 76
+!i122 183
+L0 2 77
 R8
 r1
 !s85 0
 31
-Z75 !s108 1721548303.000000
+Z75 !s108 1721552724.000000
 Z76 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
 Z77 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_5_serial_adder.sv|
 !i113 1
@@ -359,21 +359,46 @@ R77
 !i113 1
 R12
 R13
+vserial_bcd_adder
+R0
+!s110 1726737307
+!i10b 1
+!s100 c5d]k3Ic6U`]mdY;fde?30
+R2
+IDM=Bk]jBd0KPZ?JYfa8?Y1
+R3
+S1
+R4
+w1726737303
+8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv
+F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv
+!i122 184
+L0 1 27
+R8
+r1
+!s85 0
+31
+!s108 1726737307.000000
+!s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv|
+!i113 1
+R12
+R13
 vsimple_adder
 R0
 R71
 !i10b 1
-!s100 ?T_BeTM`BE9OSdT[:Pi?D1
+!s100 F7o_[k3i>kT8>=8XQF^Pe2
 R2
-ITo1?2_^B[TSjXZ75[Wz?63
+IFPz31kh^IaT;Ijld82F@P1
 R3
 S1
 R4
 R72
 R73
 R74
-!i122 182
-L0 78 10
+!i122 183
+L0 80 10
 R8
 r1
 !s85 0
@@ -686,7 +711,7 @@ R12
 R13
 vtb_serial_adder
 R0
-R71
+!s110 1721548303
 !i10b 1
 !s100 <V7XJTRTUFY4AjlEIhG593
 R2
@@ -694,7 +719,7 @@ IXefV`?`ESjQo8WdZilZ7l1
 R3
 S1
 R4
-R72
+w1721548300
 R73
 R74
 !i122 182
@@ -703,7 +728,7 @@ R8
 r1
 !s85 0
 31
-R75
+!s108 1721548303.000000
 R76
 R77
 !i113 1
