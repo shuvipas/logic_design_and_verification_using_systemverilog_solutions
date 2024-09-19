@@ -1,3 +1,78 @@
 # Loading project vsim
 # Compile of 5_6_serial_bcd_adder.sv failed with 1 errors.
 # Compile of 5_6_serial_bcd_adder.sv was successful.
+# Compile of 5_6_serial_bcd_adder.sv was successful.
+vsim work.tb_serial_bcd_adder
+# vsim work.tb_serial_bcd_adder 
+# Start time: 12:57:31 on Sep 19,2024
+# Loading sv_std.std
+# Loading work.tb_serial_bcd_adder
+# Loading work.serial_bcd_adder
+run
+# test bench begin
+# Error: Expected sum= 8, Got sum =0
+# Error: Expected sum= 0, Got sum =5
+# Error: Expected sum= 4, Got sum =1
+# test bench finished
+add wave -position insertpoint  \
+sim:/tb_serial_bcd_adder/a \
+sim:/tb_serial_bcd_adder/b \
+sim:/tb_serial_bcd_adder/sum \
+sim:/tb_serial_bcd_adder/start \
+sim:/tb_serial_bcd_adder/done \
+sim:/tb_serial_bcd_adder/rstn \
+sim:/tb_serial_bcd_adder/clk
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# test bench begin
+# Error: Expected sum= 8, Got sum =0
+# Error: Expected sum= 0, Got sum =5
+# Error: Expected sum= 4, Got sum =1
+# test bench finished
+# Compile of 5_6_serial_bcd_adder.sv was successful.
+vsim work.tb_serial_bcd_adder
+# End time: 13:02:03 on Sep 19,2024, Elapsed time: 0:04:32
+# Errors: 0, Warnings: 2
+# vsim work.tb_serial_bcd_adder 
+# Start time: 13:02:03 on Sep 19,2024
+# Loading sv_std.std
+# Loading work.tb_serial_bcd_adder
+# Loading work.serial_bcd_adder
+add wave -position insertpoint  \
+sim:/tb_serial_bcd_adder/a \
+sim:/tb_serial_bcd_adder/b \
+sim:/tb_serial_bcd_adder/sum \
+sim:/tb_serial_bcd_adder/start \
+sim:/tb_serial_bcd_adder/done \
+sim:/tb_serial_bcd_adder/rstn \
+sim:/tb_serial_bcd_adder/clk
+run
+# test bench begin
+# Error: Expected sum= 8, Got sum =0
+# Error: Expected sum= 0, Got sum =5
+# Error: Expected sum= 4, Got sum =1
+# test bench finished
+# Compile of 5_6_serial_bcd_adder.sv was successful.
+vsim work.tb_serial_bcd_adder
+# End time: 13:03:42 on Sep 19,2024, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 2
+# vsim work.tb_serial_bcd_adder 
+# Start time: 13:03:42 on Sep 19,2024
+# Loading sv_std.std
+# Loading work.tb_serial_bcd_adder
+# Loading work.serial_bcd_adder
+add wave -position insertpoint  \
+sim:/tb_serial_bcd_adder/a \
+sim:/tb_serial_bcd_adder/b \
+sim:/tb_serial_bcd_adder/sum \
+sim:/tb_serial_bcd_adder/start \
+sim:/tb_serial_bcd_adder/done \
+sim:/tb_serial_bcd_adder/rstn \
+sim:/tb_serial_bcd_adder/clk
+run
+# test bench begin
+# Error: Expected sum= 8, Got sum =0
+# Error: Expected sum= 0, Got sum =5
+# Error: Expected sum= 4, Got sum =1
+# test bench finished
