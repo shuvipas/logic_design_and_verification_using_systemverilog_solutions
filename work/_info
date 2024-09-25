@@ -361,24 +361,24 @@ R12
 R13
 vserial_bcd_adder
 R0
-Z78 !s110 1726740216
+Z78 !s110 1727247181
 !i10b 1
-!s100 <<NcNhP]G2R;JAWM69c_60
+!s100 1N7P=PZ53z^DO6RfRC=F;3
 R2
-IR[i=j65hIc[_`mobCdm1C3
+Ic<UPNJLRIKmK_GNMLd_152
 R3
 S1
 R4
-Z79 w1726740208
+Z79 w1727247158
 Z80 8/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv
 Z81 F/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv
-!i122 187
-L0 1 26
+!i122 188
+L0 1 32
 R8
 r1
 !s85 0
 31
-Z82 !s108 1726740216.000000
+Z82 !s108 1727247181.000000
 !s107 /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv|
 Z83 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5_hardware_threads/5_6_serial_bcd_adder.sv|
 !i113 1
@@ -738,17 +738,17 @@ vtb_serial_bcd_adder
 R0
 R78
 !i10b 1
-!s100 on2AX5d3mhzf2zJ:jo3jl3
+!s100 ]2@j8B0c]:V8Xd?m7[bog3
 R2
-I?L_0X?hf]RRYO;Eb9hN5a0
+IO0j@]n7<4>;hGE?IXAfcM2
 R3
 S1
 R4
 R79
 R80
 R81
-!i122 187
-L0 29 64
+!i122 188
+L0 38 64
 R8
 r1
 !s85 0
