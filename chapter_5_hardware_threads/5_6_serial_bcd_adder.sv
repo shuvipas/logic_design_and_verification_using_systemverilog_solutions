@@ -10,23 +10,29 @@ module serial_bcd_adder (
   logic [4:0] adder_sum;
   logic [3:0] sub_sum;
   logic sub10;
-  logic cin;
+  logic cin, en_ff, en;
   always_comb begin
     adder_sum = a + b + cin;
     sub10 = adder_sum[4] | adder_sum[3]&(adder_sum[2]|adder_sum[1]); //carry out or adder_sum > 9
     sub_sum = adder_sum[3:0] + 4'b0110;  // adder sum - 10
-    sum = done ? 4'b0 : (sub10 ? sub_sum : adder_sum);
+    sum = en ? 4'b0 : (sub10 ? sub_sum : adder_sum);
   end
+
+  assign en = done &(start | en_ff);
 
   always_ff @(posedge clk, negedge rstn) begin
     if (~rstn) cin <= 1'b0;
     else cin <= (start|done) ? 1'b0 : sub10;
   end
+  always_ff @(posedge clk , negedge rstn) begin 
+    if (~rstn) en_ff <= 1'b0;
+    else en_ff <= en;
+  end
 
 endmodule
 
 
-//צריך לסדר את ההתחלה וסיום כדי שכאשר זה יתחיל הוא לא יקח מהCIN
+//צריך לסדר את ההתחלה וסיום כדי שכאשר זה יתחיל הוא לא יקח מה CIN
 
 `timescale 1ns / 1ps
 module tb_serial_bcd_adder;
