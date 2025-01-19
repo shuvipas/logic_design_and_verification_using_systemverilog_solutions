@@ -1,1 +1,156 @@
 # Loading project vsim
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv was successful.
+# Compile of 7_1_generate_all_patterns.sv was successful.
+vsim work.top71
+# vsim work.top71 
+# Start time: 12:27:50 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tbParam
+# ** Error (suppressible): (vsim-3584) /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv(15): Module parameter 'out' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /top71 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv
+# Error loading design
+# End time: 12:27:51 on Jan 19,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 13
+vsim work.top71
+# vsim work.top71 
+# Start time: 12:31:05 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tbParam
+# ** Error (suppressible): (vsim-3584) /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv(15): Module parameter 'out' not found for override.
+#    Time: 0 ps  Iteration: 0  Instance: /top71 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv
+# Error loading design
+# End time: 12:31:05 on Jan 19,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of 7_1_generate_all_patterns.sv was successful.
+vsim work.top71
+# vsim work.top71 
+# Start time: 12:31:51 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tbParam
+# ** Error: (vsim-8378) Port size (5) does not match connection size (3) for implicit .name connection port 'out'. The port definition is at: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /top71/def5 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv Line: 15
+# Error loading design
+# End time: 12:31:52 on Jan 19,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.top71
+# vsim work.top71 
+# Start time: 12:32:18 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tbParam
+# ** Error: (vsim-8378) Port size (5) does not match connection size (3) for implicit .name connection port 'out'. The port definition is at: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /top71/def5 File: /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv Line: 15
+# Error loading design
+# End time: 12:32:18 on Jan 19,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of 7_1_generate_all_patterns.sv was successful.
+vsim work.top71
+# vsim work.top71 
+# Start time: 12:33:09 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tbParam
+run
+# out = 00000 // 0
+# out = 00001 // 1
+# out = 00010 // 2
+# out = 00011 // 3
+# out = 00100 // 4
+# out = 00101 // 5
+# out = 00110 // 6
+# out = 00111 // 7
+# out = 01000 // 8
+# out = 01001 // 9
+# out = 01010 //10
+# out = 01011 //11
+# out = 01100 //12
+# out = 01101 //13
+# out = 01110 //14
+# out = 01111 //15
+# out = 10000 //16
+# out = 10001 //17
+# out = 10010 //18
+# out = 10011 //19
+# out = 10100 //20
+# out = 10101 //21
+# out = 10110 //22
+# out = 10111 //23
+# out = 11000 //24
+# out = 11001 //25
+# out = 11010 //26
+# out = 11011 //27
+# out = 11100 //28
+# out = 11101 //29
+# out = 11110 //30
+# out = 11111 //31
+# Compile of 7_1_generate_all_patterns.sv failed with 1 errors.
+# Compile of 7_1_generate_all_patterns.sv was successful.
+vsim work.top71
+# End time: 12:36:26 on Jan 19,2025, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 4
+# vsim work.top71 
+# Start time: 12:36:26 on Jan 19,2025
+# Loading sv_std.std
+# Loading work.top71
+# Loading work.tb_param
+run
+# out = 00000 // 0
+# out = 0000 // 0
+# out = 00001 // 1
+# out = 0001 // 1
+# out = 00010 // 2
+# out = 0010 // 2
+# out = 00011 // 3
+# out = 0011 // 3
+# out = 00100 // 4
+# out = 0100 // 4
+# out = 00101 // 5
+# out = 0101 // 5
+# out = 00110 // 6
+# out = 0110 // 6
+# out = 00111 // 7
+# out = 0111 // 7
+# out = 01000 // 8
+# out = 1000 // 8
+# out = 01001 // 9
+# out = 1001 // 9
+# out = 01010 //10
+# out = 1010 //10
+# out = 01011 //11
+# out = 1011 //11
+# out = 01100 //12
+# out = 1100 //12
+# out = 01101 //13
+# out = 1101 //13
+# out = 01110 //14
+# out = 1110 //14
+# out = 01111 //15
+# out = 1111 //15
+# out = 10000 //16
+# out = 10001 //17
+# out = 10010 //18
+# out = 10011 //19
+# out = 10100 //20
+# out = 10101 //21
+# out = 10110 //22
+# out = 10111 //23
+# out = 11000 //24
+# out = 11001 //25
+# out = 11010 //26
+# out = 11011 //27
+# out = 11100 //28
+# out = 11101 //29
+# out = 11110 //30
+# out = 11111 //31

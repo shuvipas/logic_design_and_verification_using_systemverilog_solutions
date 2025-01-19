@@ -8,12 +8,11 @@ module decade_ctr (
   always_ff @(posedge clk, negedge rstn) begin
     if (~rstn) dcba <= 4'b0;
     else if (dcba[3] & (dcba[2] | dcba[1])) dcba <= 4'b0;
-    else if (cout) dcba <= 4'b0;
     else if (count_en) begin
       dcba[0] <= ~dcba[0];
       dcba[1] <= ~dcba[3] & ~dcba[1] & dcba[0] | dcba[1] & ~dcba[0];
       dcba[2] <= ~dcba[3]&dcba[2]&~dcba[1]|~dcba[2]&dcba[1]&dcba[0]|dcba[2]&dcba[1]&~dcba[0];
-      dcba[3] <= dcba[2] & dcba[1] & dcba[0] | dcba[3];
+      dcba[2] <= dcba[2] & dcba[1] & dcba[0] | dcba[3];
     end
   end
   assign cout = dcba[3] & dcba[0];
@@ -60,19 +59,32 @@ module tb_zero_to_99;
 
   initial begin
     rstn = 0;
-    count_en = 1;
-    count = 0;
-    #7 rstn = 1;
+    count_en = 0;
+    #2 rstn = 1;
   end
 
   initial begin
     automatic int i = 0;
     $display("test bench begin");
+
+    count_en = 1;
+    count = 0;
+
+
     while (i < 110) begin
       i++;
+      
       @(posedge clk);
       if (count_en) count++;
-      $display("count = %d, cout = %b, dcba10 = %b,dcba1= %b", count, cout, dcba10, dcba1);
+      if (count != {cout, dcba10, dcba1})
+        $display(
+            "ERROR: count = %d = %b, cout = %b, dcba10 = %b,dcba1= %b",
+            count,
+            count,
+            cout,
+            dcba10,
+            dcba1
+        );
       if (i % 13 == 0) begin
         count_en = 0;
       end else count_en = 1;
