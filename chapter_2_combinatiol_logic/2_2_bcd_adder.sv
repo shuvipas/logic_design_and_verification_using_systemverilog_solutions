@@ -8,13 +8,12 @@ module bcd_adder (
   logic [3:0] t_sum;
   always_comb begin
     t_sum = a + b + cin;
-    if (t_sum > 4'b1001) begin
-      cout = 1'b1;
-      sum  = t_sum - 4'b1010;
+    cout = t_sum > 4'b1001? 1'b1:1'b0; 
+    if (cout) begin
+      sum  = t_sum + 4'b0110;// == - 4'b1010 (its the twos comlument)
     end else begin
       sum  = t_sum;
-      cout = 1'b0;
-
+      
     end
   end
 endmodule
