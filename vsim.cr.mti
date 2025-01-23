@@ -6,6 +6,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	serial_adder
 
+} {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_7_testbench_introduction/7_1_generate_all_patterns.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_param
+-- Compiling module top71
+
+Top level modules:
+	top71
+
 } {} {}} /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv {1 {vlog -work work -sv -stats=none /home/pasko/projects/logic_design_and_verification_using_systemverilog_solutions/chapter_5/5_1_two_of_fivet.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module two_of_five
