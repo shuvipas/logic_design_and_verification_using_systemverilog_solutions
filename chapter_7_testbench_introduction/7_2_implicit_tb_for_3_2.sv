@@ -1,15 +1,21 @@
-module top7_2;
+module top72;
 
 logic clk, rstn,i,j,x,y;
+// logic clk;
+// logic rstn;
+// logic i;
+// logic j;
+// logic x;
+// logic y;
 
 fsm_prob_a dut(.*);
 tb3_2 tb(.*);
 
 initial begin
-    $monitor("current state: %s, output: xy = %b%b", dut.state.name,x,y);
+    $monitor("current state: %b, output: xy = %b%b", dut.state,x,y);
     clk =0;
     rstn =0;
-    rstn<= #1 1;
+    rstn <= #1  1;
     forever #5 clk = ~clk;
 end
 endmodule
