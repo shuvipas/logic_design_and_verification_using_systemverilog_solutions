@@ -1,0 +1,120 @@
+$date
+	Tue Feb  4 16:07:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top73 $end
+$var wire 1 ! y $end
+$var wire 1 " x $end
+$var wire 1 # j $end
+$var wire 1 $ i $end
+$var reg 1 % clk $end
+$var reg 1 & rstn $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 1 & rstn $end
+$var wire 1 ! y $end
+$var wire 1 " x $end
+$var wire 1 # j $end
+$var wire 1 $ i $end
+$var reg 2 ' st_out [1:0] $end
+$var reg 2 ( state [1:0] $end
+$upscope $end
+$scope module tb $end
+$var wire 1 % clk $end
+$var reg 1 $ i $end
+$var reg 1 # j $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b11 '
+0&
+0%
+1$
+0#
+1"
+1!
+$end
+#1
+1&
+#5
+0"
+b1 '
+b1 (
+1%
+#10
+0%
+#15
+1"
+0!
+b10 '
+b10 (
+1%
+#20
+0%
+#25
+0"
+1!
+b1 '
+b1 (
+1%
+#30
+0%
+#35
+1"
+0!
+b10 '
+b11 (
+1#
+0$
+1%
+#40
+0%
+#45
+b10 (
+1%
+#50
+0%
+#55
+1%
+#60
+0%
+#65
+b11 (
+0#
+1%
+#70
+0%
+#75
+1$
+1%
+#80
+0%
+#85
+1!
+b11 '
+b0 (
+0$
+1%
+#90
+0%
+#95
+1%
+#100
+0%
+#105
+1%
+#110
+0%
+#115
+1%
