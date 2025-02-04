@@ -1,12 +1,6 @@
 module top72;
 
 logic clk, rstn,i,j,x,y;
-// logic clk;
-// logic rstn;
-// logic i;
-// logic j;
-// logic x;
-// logic y;
 
 fsm_prob_a dut(.*);
 tb3_2 tb(.*);
