@@ -5,17 +5,18 @@ module top73;
   fsm_prob_b dut (.*);
   tb3_3 tb (.*);
 
-  initial begin
+  initial
+  begin
     $monitor($time, " current state: %b, input: ij %b%b output: xy = %b%b", dut.state, i, j, x, y);
     $dumpfile("top73.vcd");
     $dumpvars(0, top73);
     clk  = 0;
     rstn = 0;
     rstn <= #1 1;
-    forever #5 clk = ~clk;
+    forever
+      #5 clk = ~clk;
   end
 endmodule
-
 
 
 
@@ -23,8 +24,9 @@ module tb3_3 (
     input  logic clk,
     output logic i,
     j
-);
-  initial begin
+  );
+  initial
+  begin
     i = 1;
     j = 0;
     @(posedge clk);
