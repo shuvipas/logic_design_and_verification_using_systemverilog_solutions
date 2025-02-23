@@ -12,7 +12,7 @@ module top73;
     $dumpvars(0, top73);
     clk  = 0;
     rstn = 0;
-    rstn <= #1 1;
+    rstn <= #1 1; 
     forever
       #5 clk = ~clk;
   end
